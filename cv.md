@@ -1,4 +1,4 @@
-![photo](./assets/image/photo.jpg)
+![photo](./assets/images/photo.jpg)
 
 # **Aliaksandr Laurynovich**
 

@@ -1,7 +1,39 @@
+html {
+    height: 100%;
+}
+
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #1D1E28;
+    background: #1c2936;
+    position: relative;
+    min-height: 100%;
+}
+
+.header {
+    text-align: center;
     color: #fff;
-    font-size: 16px;
-    line-height: 1.6;
+    height: 10vh;
+    background: #1b242d;
+}
+
+.conteiner {
+    color: #fff;
+    background: #263646;
+    min-height: 85vh;
+   
+}
+
+.conteiner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25vh;
+    height: 35;
+}
+
+.footer {
+    color: #fff;
+    height: 5vh;
+    text-align: center;
+    text-decoration: underline;
+    border-top: solid #000;;
 }

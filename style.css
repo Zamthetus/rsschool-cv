@@ -18,21 +18,45 @@ body {
 .conteiner {
     color: #fff;
     background: #263646;
-    min-height: 85vh;
+    height: max-content;
+
    
 }
 
-.conteiner img {
+.containerContact {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25vh;
-    height: 35;
+    width: 30%;
+    float: left;
+    height: auto;
+}
+
+.containerContact h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contactInfo {
+    margin-left: 30px;
+}
+
+.conteinerInfo {
+    width: 70%;
+    float: right;
+    height: 100%;    
+}
+
+.info {
+    margin: 30px;
+}
+
+
+.conteiner img {
+    max-width: 100%;
 }
 
 .footer {
     color: #fff;
-    height: 5vh;
+    /* height: 5vh; */
     text-align: center;
     text-decoration: underline;
     border-top: solid #000;;
